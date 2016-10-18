@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		   <meta charset="utf-8">
+    <!-- SEO  -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- 苹果专用 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 简单移动端适配 -->
+   	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- 图标 -->
+	<link rel="shortcut icon" href="">
+    
+    <title>resume</title>
+    
+    <link rel="stylesheet" href="css/lib/animate.min.css">
+    <link rel="stylesheet" href="css/lib/swiper-3.3.1.min.css">	
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="icon/demo.css">
+    
+    <style>
+    	 html, body {
+        position: relative;
+        height: 100%;
+        width:100%;
+        margin:0;
+        padding:0;
+        border:none;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        position:relative;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        background:url(img/21.jpg) no-repeat;
+        background-size:100% 100%;
+        position:relative;
+    }
+    .swiper-wrapper{
+    	width:100%;
+    	height:100%;
+    	position:relative;
+    }
+ 	.swiper-slide{
+ 		width:100%;
+ 		height:100%;
+ 		position: relative;
+ 	}
+   /***********************slide1*****************************/
+   .audio{
+   		width:7%;
+   		height:7%;
+   		display:block;
+   		position:absolute;
+   		right:8%;
+   		top:2%;
+   		animation: rotate 2s linear infinite ;
+   		-moz-animation:rotate 2s linear infinite;
+   		-webkit-animation: rotate 2s linear infinite;
+   		-ms-animation: rotate 2s linear infinite;
+   		z-index:100;
+   }
+   .shine1{
+   		position:absolute;
+   		left:5%;
+   		top:5%;
+   		animation: shine 2s ease 0s infinite alternate;
+   		-webkit-animation:shine 2s ease 0s infinite alternate; 
+   		-ms-animation: 2s ease 0s infinite alternate;
+   		-moz-animation: shine 2s ease 0s infinite alternate; 		
+   }
+   .shine2{
+   		position: absolute;
+   		right:5%;
+   		top:15%;
+   		animation: shine 2s ease 0.8s infinite alternate;
+   		-webkit-animation:shine 2s ease 0.8s infinite alternate;
+   		-ms-animation:shine 2s ease 0.8s infinite alternate;
+   		-moz-animation:shine 2s ease 0.8s infinite alternate;  
+   }
+   .shine3{
+   		position: absolute;
+   		top:25%;
+   		left:45%;
+   		animation: shine 2s ease 1.5s infinite alternate;
+   		-webkit-animation:shine 1.5s ease 1.5s infinite alternate;
+   		-ms-animation:shine 1.5s ease 1.5s infinite alternate;
+   		-moz-animation:shine 1.5s ease 1.5s infinite alternate;  
+   }
+   .shine4{
+   		position: absolute;
+   		bottom:20%;
+   		right:2%;
+   		animation: shine 2s ease 1.5s infinite alternate;
+   		-webkit-animation:shine 1.5s ease 1.2s infinite alternate;
+   		-ms-animation:shine 1.5s ease 1.2s infinite alternate;
+   		-moz-animation:shine 1.5s ease 1.2s infinite alternate;  
+   }
+   
+   .themediv{
+   	width:100%;
+   	position:absolute;
+   	top:18%;
+   	display:flex;
+   	justify-content: center;
+   }
+   .attendPosition{
+   		width:100%;
+   		color:white;
+   		position:absolute;
+   		bottom:20%;
+   		display:flex;
+   		justify-content: center;
+   		align-items: center;
+   }
+   .attendPosition>span:nth-child(1){
+   	flex-grow: 10;
+   	-webkit-flex-flow:10;
+   }
+   .attendPosition>span:nth-child(2){
+   	flex-grow: 3;
+   	-webkit-flex-flow:3;
+   	height:2px;
+   	background:1px solid white;
+   	background:white;
+   	display: block;
+   }
+   .attendPosition>span:nth-child(3){
+   	 font-size:1rem;
+   	 flex-grow: 0.5;
+   	-webkit-flex-flow:0.5;  	 
+   	 text-align: center;
+   }
+   .attendPosition>span:nth-child(4){
+   	flex-grow: 3;
+   	-webkit-flex-flow:3;
+   	height:2px;	
+   	background:1px solid white;
+   	background:white;
+   	display: block;
+
+   }
+   .attendPosition>span:nth-child(5){
+   	flex-grow: 10;
+   	-webkit-flex-flow:10;
+   	
+   }
+   .arr{
+   		width:100%;
+   		position:absolute;
+   		bottom:5%;
+   		justify-content: center;
+   		color:white;
+   		display: flex;
+   }
+   .arr span{
+   		flex-flow: 1;
+   		font-size:1rem;
+   		animation: arr 1s linear infinite alternate;
+   		-webkit-animation: arr 1s linear infinite alternate;
+   		-ms-animation: arr 1s linear infinite alternate;
+   		-moz-animation: arr 1s linear infinite alternate;
+   		
+   }
+   /*******************slide2**********************/
+  .pageTwoCode{
+  	display:block;
+  	position:absolute;
+  	top:5%;
+  	left:7%;
+  }
+  .personInfo{
+  	color:white;
+  	font-size:1.3rem;
+  	position:absolute;
+  	left:20%;
+  	top:9%;
+  }
+  .shine1P2{
+  	position:absolute;
+  	top:20%;
+  	left:10%;
+  }
+  .touxian{
+  	width:25%;
+  	height:15%;
+  	border:3px solid #ccc;
+  	position:absolute;
+  	right:4%;
+  	top:20%;
+  }
+  .info{
+  	display:flex;
+  	position:absolute;
+  	top:45%;
+  	left:8%;
+  	flex-flow: column nowrap;
+  	height:40%;
+  	align-items:flex-start;
+  	justify-content: flex-start;
+  }
+  .info span{
+  	color:white;
+  	flex:1;
+  	font-size:0.8rem;
+  }
+  
+  /******************slide3**********************/
+ .con1{
+ 	position:absolute;
+ 	left:15%;
+ 	top:25%;	
+ 	width:5rem;
+ 	height:5rem;
+ }
+ .skill1{
+ 	position:absolute;
+ 	left:0%;
+ 	top:0%;
+ 	z-index:2;
+ 	font-size:0.9rem;
+ 	width:5rem;
+ 	height:5rem;
+ 	text-align: center;
+ 	line-height: 5rem;
+ }
+ 
+ .stat1{
+ 	position:absolute;
+ 	left:0%;
+ 	bottom:0%;
+ 	width:5rem;
+ 	height:5rem;
+ 	animation: rotate  5s linear 1s infinite;
+ 	-webkit-animation: rotate  5s linear 1s infinite;
+ 	-ms-animation: rotate  5s linear 1s infinite;
+ 	-moz-animation: rotate  5s linear 1s infinite;
+ 	
+ }
+ .con2{
+ 	position:absolute;
+ 	left:10%;
+ 	bottom:15%;
+ 	width:5rem;
+ 	height:5rem;
+ }
+ .skill2{
+ 	position:absolute;
+ 	left:0%;
+    bottom:0%;
+ 	font-size:1.4rem;
+ 	z-index:2;
+ 	width:5rem;
+ 	height:5rem;
+ 	line-height:5rem;
+ 	text-align: center;
+ 	color:chartreuse;
+ }
+ .stat2{
+ 	position:absolute;
+ 	left:0%;
+    top:0%;
+ 	font-size:1.2rem;
+ 	width:5rem;
+ 	height:5rem;	
+ }
+ .stat2Div{
+ 	position:relative;
+ 	width:5rem;
+ 	height:5rem;
+ 	animation: rotate  5s linear 1.5s infinite;
+ 	-webkit-animation: rotate  5s linear 1.5s infinite;
+ 	-ms-animation: rotate  5s linear 1.5s infinite;
+ 	-moz-animation: rotate  5s linear 1.5s infinite;
+ 	
+ }
+ .con3{
+ 	position:absolute;
+ 	right:8%;
+ 	bottom:27%;
+ 	width:4rem;
+ 	height:4rem;
+ }
+ 
+ .stat3{
+ 	position:absolute;
+ 	right:0%;
+ 	bottom:0%;
+ 	width:4rem;
+ 	height:4rem;
+ 	animation: rotate  5s linear 1s infinite;
+ 	-webkit-animation: rotate  5s linear 1s infinite;
+ 	-ms-animation: rotate  5s linear 1s infinite;
+ 	-moz-animation: rotate  5s linear 1s infinite;
+ 	
+ }
+ .skill3{
+ 	position:absolute;
+ 	right:0%;
+ 	bottom:0%;
+ 	font-size:1rem;
+ 	z-index:2;
+ 	width:4rem;
+ 	height:4rem;
+ 	line-height:4rem;
+ 	text-align:center;
+ 	color:white;
+ }
+ .con4{
+ 	position:absolute;
+ 	left:22%;
+ 	top:50%;
+ 	width:7rem;
+ 	height:3.5rem;
+ }
+ .stat4{
+ 	position:absolute;
+ 	left:0%;
+ 	top:0S%;
+ 	width:7rem;
+ 	height:3.5rem;
+ 	animation: rotate  5s linear 1s infinite;
+ 	-webkit-animation: rotate  5s linear 1s infinite;
+ 	-ms-animation: rotate  5s linear 1s infinite;
+ 	-moz-animation: rotate  5s linear 1s infinite;
+ }
+ .skill4{
+ 	position:absolute;
+ 	font-size:0.7rem;
+ 	z-index:2;
+ 	width:7rem;
+ 	height:3.5rem;
+ 	line-height: 3.5rem;
+ 	text-align: center;
+ 	 color:greenyellow;
+ }
+ .con5{
+ 	position:absolute;
+ 	right:25%;
+ 	top:28%;
+ 	width:3.5rem;
+ 	height:3.5rem;
+ }
+ .stat5{
+ 	position:absolute;
+ 	right:0%;
+ 	top:0%;
+ 	width:3.5rem;
+ 	height:3.5rem;
+ 	animation: rotate  5s linear 1s infinite;
+ 	-moz-animation: rotate  5s linear 1s infinite;
+ 	-webkit-animation: rotate  5s linear 1s infinite;
+ 	-ms-animation: rotate  5s linear 1s infinite;
+ 	
+ }
+ .skill5{
+ 	position:absolute;
+ 	right:0%;
+ 	top:0%;
+ 	font-size:0.7rem;
+ 	z-index:2;
+ 	width:3.5rem;
+ 	height:3.5rem;
+ 	text-align:center;
+ 	line-height:3.5rem;
+ 	color:orangered;
+ }
+.con6{
+ 	position:absolute;
+ 	right:8%;
+ 	top:43%;
+ 	width:2.9rem;
+ 	height:2.9rem;
+ }
+ .skill6{
+ 	position:absolute;
+ 	font-size:1.2rem;
+ 	z-index:2;
+ 	width:2.9rem;
+ 	height:2.9rem;
+ 	line-height:2.9rem;
+ 	text-align:center;
+ 	color:darkred;
+ }
+ .stat6{
+ 	position:absolute;
+ 	width:2.9rem;
+ 	height:2.9rem;
+ 	animation: rotate 5s linear 1s infinite;
+ 	-ms-animation: rotate 5s linear 1s infinite;
+ 	-webkit-animation: rotate 5s linear 1s infinite;
+ 	-moz-animation: rotate 5s linear 1s infinite;
+ }
+ 
+  /********************animation****************************/
+ 
+   /**********闪现***************/
+  @-moz-keyframes shine{
+  		from{
+   		opacity: 0;
+   		filter:Alpha(opacity=0);
+   	}
+   	to{
+   		opacity: 1;
+   		filter: alpha(opacity=100);
+   		}
+  }
+  @-ms-keyframes shine{
+   	from{
+   		opacity: 0;
+   		filter:Alpha(opacity=0);
+   	}
+   	to{
+   		opacity: 1;
+   		filter: alpha(opacity=100);
+   		}
+   }
+   @-webkit-keyframes shine{
+   		from{
+   		opacity: 0;
+   		filter:Alpha(opacity=0);
+   	}
+   	to{
+   		opacity: 1;
+   		filter: alpha(opacity=100);
+   		}
+   }
+   @keyframes shine{
+   	from{
+   		opacity: 0;
+   		filter:Alpha(opacity=0);
+   	}
+   	to{
+   		opacity: 1;
+   		filter: alpha(opacity=100);
+   		}
+   }
+ 
+   /*************旋转***********/
+  @keyframes rotate{
+  	0%{
+  		transform: rotate(0deg);
+  	}
+  	100%{
+  		transform: rotate(360deg)
+  	}
+  }
+  @-ms-keyframes rotate{
+  	0%{
+  		transform: rotate(0deg);
+  	}
+  	100%{
+  		transform: rotate(360deg)
+  	}
+  }
+  @-webkit-keyframes rotate{
+  	0%{
+  		transform: rotate(0deg);
+  	}
+  	100%{
+  		transform: rotate(360deg)
+  	}
+  }
+  @-moz-keyframes rotate{
+  	0%{
+  		transform: rotate(0deg);
+  	}
+  	100%{
+  		transform: rotate(360deg)
+  	}
+  }
+  /***************箭头*****************/
+ 	@keyframes arr{
+ 		from{
+ 			opacity: 0.8;
+   			filter:alpha(opacity=80);
+   			transform: translateY(1rem);
+ 		}
+ 		to{
+ 			opacity: 0.1;
+   			filter:alpha(opacity=10);
+   			transform: translateY(0);
+ 		}
+ 	}
+	@-webkit-keyframes arr{
+ 		from{
+ 			opacity: 0.8;
+   			filter:alpha(opacity=80);
+   			transform: translateY(1rem);
+ 		}
+ 		to{
+ 			opacity: 0.1;
+   			filter:alpha(opacity=10);
+   			transform: translateY(0);
+ 		}
+ 	}
+ 	@-moz-keyframes arr{
+ 		from{
+ 			opacity: 0.8;
+   			filter:alpha(opacity=80);
+   			transform: translateY(1rem);
+ 		}
+ 		to{
+ 			opacity: 0.1;
+   			filter:alpha(opacity=10);
+   			transform: translateY(0);
+ 		}
+ 	}
+ 	@-ms-keyframes arr{
+ 		from{
+ 			opacity: 0.8;
+   			filter:alpha(opacity=80);
+   			transform: translateY(1rem);
+ 		}
+ 		to{
+ 			opacity: 0.1;
+   			filter:alpha(opacity=10);
+   			transform: translateY(0);
+ 		}
+ 	}	 
+    </style>
+	</head>
+	<body>
+		<img src="img/normalmusic.svg" class="audio">
+		<audio class="play" src="audio/Valentin - A Little Story.mp3" autoplay="autoplay"></audio>
+		<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        	 <!--slide1-->
+            <div class="swiper-slide">
+            	<img src="img/2.png" class="shine1 shine">
+            	<img src="img/6.png" class="shine2 shine">
+            	<img src="img/20.png" class="shine3 shine">
+            	<div class="themediv">           		
+            		<img src="img/26.png" class="ani theme" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">
+            	</div>
+            	<div class="attendPosition">
+            		<span></span>
+            		<span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s"></span>
+            		<span class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">求职前端工程师</span>
+            		<span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s"></span>
+            		<span></span>
+            	</div>
+            	<div class="arr">
+            		<span class="iconfont">&#xe60e;</span>
+            	</div>
+            	
+            </div>
+            <!--slide2-->	
+            <div class="swiper-slide">
+          
+            	<img src="img/2.png" class="shine1 shine shine1P2">
+            	<img src="img/6.png" class="shine2 shine">
+            	<img src="img/20.png" class="shine3 shine">
+            	<img src="img/3.png" class="shine4 shine">
+            	<img src="img/7.jpg" class="touxian">           	
+        		<div class="arr">
+        			<span class="iconfont">&#xe60e;</span>
+        	    </div>	           	
+            	<img src="img/14.png" class="ani pageTwoCode" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+            	<h1 class="ani personInfo" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">个人信息</h1>
+            	<div class="info">
+            		<span class="ani " swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">姓名 : 罗侠</span>
+            		<span class="ani " swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="1s">职位 : 前端工程师</span>
+            		<span class="ani " swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">专业 : 光信息科学与技术</span>
+            		<span class="ani " swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="2s">毕业学校 : 华东交通大学</span>
+            		<span class="ani " swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">学历 : 本科</span>
+            		<span class="ani " swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="3s">工作经验 : 一年</span>
+            	</div>
+            </div>
+            
+         	<!--slide3-->	
+            
+             <div class="swiper-slide">
+
+            	<img src="img/2.png" class="shine1 shine shine1P2">
+            	<img src="img/6.png" class="shine2 shine">
+            	<img src="img/20.png" class="shine3 shine">
+            	<img src="img/3.png" class="shine4 shine">         	
+        		<div class="arr">
+        			<span class="iconfont">&#xe60e;</span>
+        	    </div>
+        	   <img src="img/17.png" class="ani pageTwoCode" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"> 
+        	   <h1 class="ani personInfo" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">精通技能</h1>
+	        	   <div class="con1">
+	        	   	 	<img src="img/9.png" class="stat1">
+	        	   		<div class="ani skill1" swiper-animate-effect="flip" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><span>AngularJS</span></div>
+	        	   </div>
+	        	  <div class="con2">
+	        	  		<div class="stat2Div">
+		    	  	 		<img src="img/5.png" class="ani stat2" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+		    	  	 	</div>	
+		    	   		<div class="ani skill2" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s" ><span>C3</span></div>
+	        	  </div>
+	        	  <div class="con3">
+	        	  	<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+	        	  		 <img src="img/8.png" class="stat3">
+	        	  	</div> 
+	        	     <div class="ani skill3" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><span>Jquery</span></div>
+	        	  </div>
+	        	  <div class="con4">
+	        	  	<div class="ani" swiper-animate-effect="flip" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+	        	  		 <img src="img/1.png" class="stat4">
+	        	  	</div>	 
+	        	     <div class="ani skill4" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s"><span>Bootstrap</span></div>
+	        	  </div>
+	        	  <div class="con5">
+	        	  	<div class="ani" swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+	        	  		 <img src="img/11.png" class="stat5">
+	        	  	</div>	 
+	        	     <div class="ani skill5" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><span>Swiper</span></div>
+	        	  </div>
+	        	  <div class="con6">
+	        	  	  <img src="img/7.png" class="stat6">
+	        	    <div class="ani skill6" swiper-animate-effect="flipInX" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><span>H5</span></div>
+	        	  </div>   	 
+             </div>
+             
+             <!--slide4-->	
+             
+             <div class="swiper-slide">
+              	<h1 class="ani personInfo" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">项目经验</h1>
+             	<img src="img/15.png" class="ani pageTwoCode" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+             	<img src="img/normalmusic.svg" class="audio">
+            	<img src="img/2.png" class="shine1 shine shine1P2">
+            	<img src="img/6.png" class="shine2 shine">
+            	<img src="img/20.png" class="shine3 shine">
+            	<img src="img/3.png" class="shine4 shine">         	
+        		<div class="arr">
+        			<span class="iconfont">&#xe60e;</span>
+        	    </div>
+             </div>                          
+             <div class="swiper-slide">Slide 4</div>
+             <div class="swiper-slide">Slide 4</div>
+        </div>
+        <!--add pagenation-->
+         <div class="swiper-pagination"></div>
+    </div>
+
+		
+		
+		
+		<script src="js/lib/jquery.js"></script>
+		<script src="js/lib/swiper-3.3.1.min.js"></script>
+		<script src="js/lib/swiper.animate1.0.2.min.js"></script>
+		<script src="js/lib/app.js"></script>
+		<script type="text/javascript">
+		//点击音乐按钮开关音乐
+		var music=document.getElementsByClassName("play")[0];
+		$(".audio").on("tap click",function(){
+			if(music.paused){
+				
+				music.play();
+			}else{
+				music.pause();			
+			}
+		})
+		
+		
+			var mySwiper = new Swiper('.swiper-container', {
+				pagination : '.swiper-pagination',
+				paginationType: 'progress',
+	   			direction : 'vertical',
+	   			onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+	   				swiperAnimateCache(swiper); //隐藏动画元素 
+	   				swiperAnimate(swiper); //初始化完成开始动画
+	   			},
+	   			onSlideChangeEnd: function(swiper) {
+	   				swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+	   			}
+	   		})
+			if(mySwiper.activeIndex==3){
+   					alert("ff")	   			
+	   			}
+		</script>
+	</body>
+</html>
